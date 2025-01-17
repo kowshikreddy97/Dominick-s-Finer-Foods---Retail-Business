@@ -25,7 +25,7 @@ Tools and Technologies:
 - Tableau
 - Report Builder
 
-Features:
+Features and Steps:
 -
 - Followed Kimball methodology and utilized dimensional modeling technique while implementing the project.
 - Created a temporary staging area using SSMS.
