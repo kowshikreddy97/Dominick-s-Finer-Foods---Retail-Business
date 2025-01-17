@@ -1,17 +1,30 @@
 Introduction: 
+-
+Dominick’s Finer Foods (DFF) founded in 1918 by a Sicilian immigrant Dominick DiMatteo was a major grocery store chain in the Chicago area. The company evolved from a small deli to become Chicago’s second-largest supermarket chain. Over the decades, DFF expanded significantly and they underwent several changes in ownership which impacted DFF’s performance.
 
-Dominick’s Finer Foods (DFF) founded in 1918 by a Sicilian immigrant Dominick DiMatteo was a major grocery store chain in the Chicago area. The company evolved from a small deli to become Chicago’s second-largest supermarket chain. Over the decades, DFF expanded
-significantly and they underwent several changes in ownership which impacted DFF’s performance.
+The primary objective of this project is to design and implement a data warehouse for DFF using the store-level data collected from 1989-1994. This involves integrating the data from various sources ensuring data consistency to provide a consolidated view of the company’s operations. The data warehouse will facilitate historical data analysis to understand the patterns in customer behavior, sales trends, and marketing strategies. This information is essential to understand the factors that contributed to DFF’s success and downfall.
 
-They were one of the first to feature in-store delicatessens and frozen food sections and pioneered online grocery ordering well before e-commerce became the norm. They partnered with Starbucks to install coffee bars in stores to enhance the customer’s in-store experience.
-DFF’s success was largely credited to its ability to stay ahead of the market trends. The company also employed the latest technologies to consistently improve efficiency and customer service,
-staying committed to meeting customers' needs and requirements.
+Business Questions:
+-
+  1. Which store has the highest store traffic for the last quarter of 1994?
+  2. Which holiday week in 1991 and 1992 saw the highest grocery sales in the low-tier Buffalo Grove stores?
+  3. How does the profit margin of toothpaste vary by brand?
+  4. What are the monthly average sales amounts for the BAKERY, DAIRY, PHARMACY, COSMETIC, and HABA departments across Dominick's Fine Food stores located in Naperville and Schaumburg during the year 1994, and how do these averages compare among the different departments within these locations?
+  5. What were the highest sales contributions from single and retired individuals in the Buffalo Grove stores for BUDWEISER BEER N.R.B during the Thanksgiving week of 1993?
 
-However, the company faced significant challenges after it was acquired by Safeway Inc. as the changes implemented were unfamiliar to the long-time local customers and impacted their shopping experience. They replaced the familiar local products with Safeway’s in-house brands
-disrupting the shopping experience of long-term customers. Additionally, the entry of competitors such as Target, Walmart, Kroger, etc. resulted in a drop in DFF’s market share
-stressing the impact of integrating local stores into national operations.
+To know more about the insights uncovered for these business questions, please check out my project report :)
 
-The primary objective of this project is to design and implement a data warehouse for DFF using the store-level data collected from 1989-1994. This involves integrating the data from various sources ensuring data consistency to provide a consolidated view of the company’s operations. The data warehouse will facilitate historical data analysis to understand the patterns in customer behavior, sales trends, and marketing strategies. This information is essential to understand the
-factors that contributed to DFF’s success and downfall.
+Tools and Technologies:
+-
+- SQL Server 2016
+- Visual Studio
+- SSMS: SQL Server Management Studio - To create and maintain data warehouse and data marts.
+- SSIS: SQL Server Integration Services - To build ETL pipelines and perform ETL processes.
+- SSAS: SQL Server Analysis Services - To create hyper dimensional cubes to analyze the data efficiently.
+- Power BI
+- Tableau
+- Report Builder
 
-Furthermore, The data warehouse will enable the creation of reports tailored to the organization and its stakeholders. These reports will provide valuable insights into various aspects of the business enabling targeted marketing and strategic decision-making. Successful implementation of this project will allow us to understand and optimize the operations.
+Features:
+-
+- Created Data marts to store fact and dimensional data
