@@ -27,4 +27,9 @@ Tools and Technologies:
 
 Features:
 -
-- Created Data marts to store fact and dimensional data
+- Followed Kimball methodology and utilized dimensional modeling technique while implementing the project.
+- Created a temporary staging area using SSMS.
+- Created Data marts to store data in fact and dimensional tables.
+- Implemented an ETL pipeline and loaded data into staging area by extracting DFF's data from various sources such as Excel files and other databases.
+- Performed transformations in staging area and loaded data into data marts.
+- Utilized BI tools to create reports and dashboards for business queries and delivered valuable insights to stakeholders.
